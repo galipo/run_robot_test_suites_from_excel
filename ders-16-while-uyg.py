@@ -60,4 +60,4 @@ while i<cesit:
                  'adet': adet  })
     i+=1
 for urun in mal:
-    print(f'ürün adi: {mal["ürün"]}\nürün fiyati: {mal["fiyat"]}\nürün stok adeti: {mal["adet"]}'
+    print(f'ürün adi: {mal["ürün"]}\nürün fiyati: {mal["fiyat"]}\nürün stok adeti: {mal["adet"]}')

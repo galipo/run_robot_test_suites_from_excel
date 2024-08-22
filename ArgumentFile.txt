@@ -1,0 +1,32 @@
+--doc This is a test suite  for Setup:8:Mode:sa:UeType:Android:UeNum:1:Freq:40mhz:UeAttachIter:2:Dryrun:False:DLTxCoeff:0.50:DLRxCoeff:0.80:DuTrV:4:CuUpTrV:2:subTestSuiteName:CellMngActDeactWithAttachDetach:androidUeList:VWS0220321001005:TagList:Setup8,DailyDeveloper,CellMngActDeactWithAndroidUEAttachDetach:phyRunArg:none:ULTxCoeff:1.0:ULRxCoeff:0.80:ConfiguredCellNumber:1:ActivatedCellIndexList:0
+-v Env_Setup_ID:Setup8
+-v Env_mode:sa
+-v Env_ue_type:Android
+-v Env_ue_number:1
+-v Env_frequency:40mhz
+-v Env_UeAttachIter:2
+-v Env_iperf_dl_tx_coeff:0.50
+-v Env_iperf_dl_rx_coeff:0.80
+-v Env_du_tr_verbosity:4
+-v Env_subTestSuiteName:CellMngActDeactWithAttachDetach
+-v Env_androidUeList:VWS0220321001005
+-i Setup8
+-i DailyDeveloper
+-i CellMngActDeactWithAndroidUEAttachDetach
+-v Env_pull_request_flag:False
+-v Env_phyRunArg:none
+-v Env_iperf_ul_tx_coeff:1.0
+-v Env_iperf_ul_rx_coeff:0.80
+-v Env_configured_cell_number:1
+-v Env_activated_cell_index_list:0
+--name Setup8saCellMngActDeactWithAttachDetach1AndroidsaUe40mhz
+-l Setup8saCellMngActDeactWithAttachDetach1AndroidsaUe40mhz_log.html
+-o Setup8saCellMngActDeactWithAttachDetach1AndroidsaUe40mhz_output.xml
+-r Setup8saCellMngActDeactWithAttachDetach1AndroidsaUe40mhz_report.html
+-v Env_reboot:False
+--exitonfailure
+-v Env_deploy_directory:/home/ulak/ulak-gnb/fx_2207/bin/nr5g/gnb/DAILY_BUILDS/develop
+-v Env_cu_run_script:cu_run_robot_develop.sh
+-v Env_du_run_script:l2_run_robot_develop.sh
+-v Env_oamc_run_script:oamc_run_robot_develop.sh
+*****************************************************************

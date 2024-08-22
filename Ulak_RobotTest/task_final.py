@@ -1,6 +1,6 @@
 from openpyxl import Workbook,load_workbook
 
-wb = load_workbook("RobotTestSuitesParamsList.xlsx")
+wb = load_workbook("RobotTestSuitesParamsList(deneme).xlsx")
 ws = wb.active
 
 #Writing name of the active worksheet        
